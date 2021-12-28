@@ -1,11 +1,18 @@
 # rtl8821CU
-[![Build Status](https://travis-ci.org/whitebatman2/rtl8821CU.svg?branch=master)](https://travis-ci.org/whitebatman2/rtl8821CU)
+
+## Current state
+
+Target platform list (x86-64 only):
+
+
+Ubutnu 18.04 + Linux 5.0 - compiled, worked (interface connected), download speed - 0.05 Mbit/s, upload speed - 0.56 Mbit/s
+
+Ubuntu 20.04.3 + Linux 5.4 - not compiled
+
+
+## Original build instruction:
 
 Drivers for rtl8811CU and rtl8821CU Wi-Fi chipsets. This repository is based on soruce code found on a CD shipped with a rtl8811CU based card. It's updated to build on newer kernel versions.
-
-## Deprecation notice
-
-This repository is archived and will probably never be supported in the future. Please consider switching to one of the forked repositories.
 
 ## Build and install with DKMS
 
