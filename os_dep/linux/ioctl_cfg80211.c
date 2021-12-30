@@ -5925,9 +5925,6 @@ static void cfg80211_rtw_mgmt_frame_register(struct wiphy *wiphy,
 		frame_type, reg);
 #endif
 
-	/* Wait QC Verify */
-	return;
-
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(5, 8, 0))
 	pwdev_priv->report_mgmt = upd->interface_stypes;
 #else
