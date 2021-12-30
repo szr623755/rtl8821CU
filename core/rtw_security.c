@@ -2135,7 +2135,11 @@ BIP_exit:
 
 #ifndef PLATFORM_FREEBSD
 #ifdef USE_KERNEL_SHA256
-	#include <crypto/sha.h>
+	#if (LINUX_VERSION_CODE >= KERNEL_VERSION(5, 11, 0))
+		#include <crypto/sha2.h>
+	#else
+		#include <crypto/sha.h>
+	#endif
 #else
 static void sha256_compress(struct sha256_state *md, unsigned char *buf)
 {
