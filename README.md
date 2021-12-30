@@ -5,11 +5,16 @@
 Target platform list (x86-64 only):
 
 
-Ubutnu 18.04 + Linux 5.0 - compiled, worked (interface connected), download speed - 0.05 Mbit/s, upload speed - 0.56 Mbit/s
+Ubutnu 18.04 + Linux 5.0 - compiled, worked (interface connected)
 
-Ubuntu 20.04.3 + Linux 5.4 - compiled, worked (interface connected), download speed - 0.06 Mbit/s, upload speed - 0.72 Mbit/s
+Ubuntu 20.04.3 + Linux 5.4 - compiled, worked (interface connected)
 
-Ubuntu 20.04.3 + Linux 5.8 - ?
+Ubuntu 20.04.3 + Linux 5.8 - compiled, worked (interface connected)
+
+Ubuntu 20.04.3 + Linux 5.11 - ?
+
+
+Common speedtest results: download speed ~ 0.05 - 0.07 Mbit/s, upload speed ~ 0.5 = 0.7 Mbit/s. Sad...
 
 
 ## Original build instruction:
